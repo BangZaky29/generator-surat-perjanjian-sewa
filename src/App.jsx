@@ -11,7 +11,7 @@
     ChevronDown,
     ChevronUp
   } from 'lucide-react';
-
+  import logo from './assets/NS_white_01.png';
 
   // Component: Accordion untuk form sections
   const Accordion = ({ title, icon: Icon, children, isOpen, onToggle }) => {
@@ -307,11 +307,11 @@
         <div className="bg-white shadow-sm border-b border-gray-200 print:hidden">
           <div className="container mx-auto px-4 py-4">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-blue-600 rounded-xl flex items-center justify-center">
-                <FileText className="w-6 h-6 text-white" />
+              <div className="w-32 h-32 border-gray-300 rounded-xl shadow-[5px_5px_12px_rgba(0,0,0,0.11)]">
+                <img src={logo} alt="Logo"/>
               </div>
               <div>
-                <h1 className="text-xl font-bold text-gray-800">Generator Surat Template</h1>
+                <h1 className="text-xl font-bold text-gray-800">Generator Surat Perjanjian Sewa</h1>
                 <p className="text-sm text-gray-600">Buat surat resmi dengan mudah dan cepat</p>
               </div>
             </div>
