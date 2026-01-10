@@ -360,14 +360,14 @@
                     name="namaPengirim"
                     value={formData.namaPengirim}
                     onChange={handleInputChange}
-                    placeholder="Bagus Ibrahim Aji"
+                    placeholder="Nama Pengirim"
                   />
                   <TextareaField
                     label="Alamat Lengkap"
                     name="alamatPengirim"
                     value={formData.alamatPengirim}
                     onChange={handleInputChange}
-                    placeholder="Jalan Setu Cilangkap Nomor 23, RT 003, RW 003..."
+                    placeholder="Jalan sultan..."
                     rows={4}
                   />
                   <InputField
@@ -375,7 +375,7 @@
                     name="nikPengirim"
                     value={formData.nikPengirim}
                     onChange={handleInputChange}
-                    placeholder="3329060408890001"
+                    placeholder="0000000000000000"
                   />
                 </Accordion>
 
@@ -391,7 +391,7 @@
                     name="namaPenerima"
                     value={formData.namaPenerima}
                     onChange={handleInputChange}
-                    placeholder="Eva Mardiana"
+                    placeholder="Nama Penerima"
                   />
                   <InputField
                     label="Jabatan"
@@ -405,14 +405,14 @@
                     name="instansiPenerima"
                     value={formData.instansiPenerima}
                     onChange={handleInputChange}
-                    placeholder="CV. NAQI PUTRI KENCANA"
+                    placeholder="CV. Instansi Penerima"
                   />
                   <TextareaField
                     label="Alamat Lengkap"
                     name="alamatPenerima"
                     value={formData.alamatPenerima}
                     onChange={handleInputChange}
-                    placeholder="Jalan Setu Cilangkap Nomor 23, RT 003, RW 003..."
+                    placeholder="Jalan Cilangkap..."
                     rows={4}
                   />
                   <InputField
@@ -420,7 +420,7 @@
                     name="nikPenerima"
                     value={formData.nikPenerima}
                     onChange={handleInputChange}
-                    placeholder="3276025703970003"
+                    placeholder="0000000000000000"
                   />
                 </Accordion>
 
@@ -450,7 +450,7 @@
                     name="lokasiObjek"
                     value={formData.lokasiObjek}
                     onChange={handleInputChange}
-                    placeholder="Jalan Setu Cilangkap Nomor 23, RT 003, RW 003..."
+                    placeholder="Jalan Cilangkap..."
                     rows={3}
                   />
                   <InputField
